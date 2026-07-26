@@ -79,6 +79,12 @@ body {
     font-size: 2rem;
 }
 
+.logo-image {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -880,6 +886,10 @@ section {
 
     .nav-logo i {
         font-size: 1.5rem;
+    }
+
+    .logo-image {
+        height: 45px;
     }
 
     .hero-title {
